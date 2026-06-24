@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parth Prajapati — Portfolio</title>
+
+    <meta
+      name="description"
+      content="Parth Prajapati — Cybersecurity Engineer specializing in OT/ICS security and AI-driven systems."
+    />
+
+    <meta property="og:title" content="Parth Prajapati — Portfolio" />
+    <meta
+      property="og:description"
+      content="Cybersecurity Engineer specializing in OT/ICS security and AI-driven systems."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/photo-placeholder.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Parth Prajapati — Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Cybersecurity Engineer specializing in OT/ICS security and AI-driven systems."
+    />
+    <meta name="twitter:image" content="assets/images/photo-placeholder.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bottom-ui-container">
+      <div class="slide-counter">
+        <div class="counter-nav prev-slide">⟪</div>
+        <div class="counter-display">
+          <span class="current-slide">01</span>
+          <span class="counter-divider">//</span>
+          <span class="total-slides">03</span>
+        </div>
+        <div class="counter-nav next-slide">⟫</div>
+      </div>
+      <div class="thumbs-container">
+        <div class="slide-thumb active" data-slide="0">About</div>
+        <div class="slide-thumb" data-slide="1">Projects</div>
+        <div class="slide-thumb" data-slide="2">Contact</div>
+      </div>
+    </div>
+
+    <div class="slides">
+      <section class="slide slide--current" data-slide="0">
+        <div
+          class="slide__bg"
+          style="
+            background-image: url(&quot;https://cdn.cosmos.so/1d4dbaff-8087-4451-a727-9d3266b573dd?format=jpeg&quot;);
+          "
+        ></div>
+        <div class="slide__overlay"></div>
+
+        <div class="about-content">
+          <div class="about-photo">
+            <img
+              class="about-photo__styled"
+              src="assets/images/photo-placeholder.jpg"
+              alt="Parth Prajapati"
+            />
+            <img
+              class="about-photo__real"
+              src="assets/images/photo-placeholder.jpg"
+              alt="Parth Prajapati"
+            />
+          </div>
+          <h1 class="about-greeting">Hello, I'm Parth Prajapati</h1>
+          <p class="about-role">Cybersecurity Enthusiast</p>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="1">
+        <div
+          class="slide__bg"
+          style="
+            background-image: url(&quot;https://cdn.cosmos.so/77f73423-0eb7-4eaa-a782-036457985290?format=jpeg&quot;);
+          "
+        ></div>
+        <div class="slide__overlay"></div>
+
+        <div class="projects-content">
+          <h2 class="projects-heading">Projects</h2>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/images/project-placeholder.jpg"
+                alt="AI Job Assistant screenshot"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3 class="project-title">AI Job Assistant</h3>
+              <p class="project-description">
+                An AI-powered system that matches resumes to job postings and
+                generates personalized cover letters — built with a 6-node
+                LangGraph agent workflow, GPT-4o, and FAISS for hybrid semantic
+                + skill-based matching.
+              </p>
+              <div class="project-tags">
+                <span>LangGraph</span>
+                <span>GPT-4o</span>
+                <span>FAISS</span>
+                <span>FastAPI</span>
+                <span>React</span>
+              </div>
+              <a
+                href="https://github.com/erparthhere-dev/ai-job-assistant"
+                target="_blank"
+                class="project-link"
+              >
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-slide="2">
+        <div
+          class="slide__bg"
+          style="
+            background-image: url(&quot;https://cdn.cosmos.so/7d2c5113-b2d3-4f9d-8215-f46fbb679f31?format=jpeg&quot;);
+          "
+        ></div>
+        <div class="slide__overlay"></div>
+
+        <div class="contact-content">
+          <h2 class="contact-heading">Let's Connect</h2>
+          <p class="contact-subtext">
+            Open to opportunities in cybersecurity and OT/ICS security.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:er.parth.here@gmail.com" class="contact-link">
+              Email
+            </a>
+            <a
+              href="https://www.linkedin.com/in/parthprajapati2002/"
+              target="_blank"
+              class="contact-link"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/erparthhere-dev"
+              target="_blank"
+              class="contact-link"
+            >
+              GitHub
+            </a>
+          </div>
+
+          <a href="assets/resume.pdf" download class="resume-button">
+            Download Resume
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
